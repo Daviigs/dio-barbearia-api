@@ -54,16 +54,3 @@ Certifique-se de que ambos os projetos estejam em execução para acessar todas 
 | POST   | `/schedules`          | Cria um novo agendamento |
 | GET    | `/schedules/{ano}/{mês}` | Lista agendamentos por mês |
 | DELETE | `/schedules/{id}`     | Exclui um agendamento    |
-
-## 🧪 Executando Testes
-
-Para rodar os testes automatizados, utilize:
-
-```bash
-mvn test
-```
-
-## 📄 Licença
-
-Este projeto está licenciado sob a **MIT License**.
-
