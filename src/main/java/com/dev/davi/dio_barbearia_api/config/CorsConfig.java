@@ -19,7 +19,7 @@ public class CorsConfig {
     public FilterRegistrationBean<CorsFilter> corsFilterRegistrationBean() {
         var config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        config.setAllowedOriginPatterns(Collections.singletonList("*"));
+        config.setAllowedOriginPatterns(Collections.singletonList("http://localhost:4200"));
         config.setAllowedMethods(Collections.singletonList("*"));
         config.setAllowedHeaders(Collections.singletonList("*"));
 

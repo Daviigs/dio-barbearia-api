@@ -33,10 +33,10 @@ public class ScheduleEntity {
     @GeneratedValue(strategy = IDENTITY)
     private Long id;
 
-    @Column(nullable = false, name = "start_in")
+    @Column(nullable = false, name = "start_at")
     private OffsetDateTime startAt;
 
-    @Column(nullable = false, name = "end_in")
+    @Column(nullable = false, name = "end_at")
     private OffsetDateTime endAt;
 
     @ToString.Exclude

@@ -5,6 +5,7 @@ import com.dev.davi.dio_barbearia_api.entity.ScheduleEntity;
 import java.time.OffsetDateTime;
 import java.util.List;
 
+
 public interface IScheduleQueryService {
 
     ScheduleEntity findById(final long id);
